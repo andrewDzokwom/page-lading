@@ -2,4 +2,129 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: robo;
+    
+}
+
+
+.hero {
+    background-color: #1f2937;
+    padding: 10px 48px;
+    color: white;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 48px;
+    padding-bottom: 48px;
+}
+
+
+.header-links {
+    display: flex;
+    gap: 10px;
+    font-size: 18px;
+    align-items: center;
+}
+
+.header-logo {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.image-one {
+    display: block;
+    background-color: rgb(153, 66, 7);
+    width: 80%;
+    align-content: center;
+    text-align: center;
+}
+
+.sign-up {
+    background-color: #3882f6;
+    border-style: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+.main-one {
+    color: 1f2937;
+    padding: 0 48px;
+    padding-bottom: 96px;
+
+}
+.main-one > h2 {
+    text-align: center;
+    margin: 48px auto;
+}
+
+.information {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.info{
+    height: 102px;
+    width: 102px;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    border: solid blue 2px;
+    border-radius: 5px;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
+    padding: 48px;
+    margin-top: 38px;
+}
+
+.quote {
+    font-weight: lighter;
+}
+
+.author{
+    text-align: end;
+    font-weight: bolder;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.main-two{
+    padding: 48px;   
+}
+
+.bg-blue {
+    background-color: rgb(18, 134, 235);
+    padding: 15px 48px;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bg-blue button {
+    border: solid white 1px;
+}
+
+.footer {
+    background-color: #1f2937;
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: small;
 }
